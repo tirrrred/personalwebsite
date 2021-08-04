@@ -48,7 +48,7 @@
                 <b-list-group-item to='/' class="d-flex justify-content-between align-items-center sidebar-listed-items">
                   About Me
                 </b-list-group-item>
-                <b-list-group-item to='/Home' class="flex-fill d-flex justify-content-between sidebar-listed-items">
+                <b-list-group-item to='/projects' class="flex-fill d-flex justify-content-between sidebar-listed-items">
                   Projects
                 </b-list-group-item>
                 <b-list-group-item href="#" class="d-flex justify-content-between align-items-center sidebar-listed-items">

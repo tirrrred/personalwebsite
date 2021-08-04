@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Career and Experience",
+        "id": 1,
+        "image": "https://source.unsplash.com/4YzrcDNcRVg/1600x900",
+        "description": "Resume, skills and experience"
+    },
+    {
+        "name": "Project and Portifiolio",
+        "id": 2,
+        "image": "https://source.unsplash.com/_x335IZXxfc/1600x900",
+        "description": "Overview of projects and acheivements"
+    },
+    {
+        "name": "Blog",
+        "id": 3,
+        "image": "https://source.unsplash.com/npxXWgQ33ZQ/1600x900",
+        "description": "My blog about topics I find interesting; spaning from technology, leadership and management, sports, and news"
+    },
+    {
+        "name": "Something else",
+        "id": 4,
+        "image": "https://source.unsplash.com/2WHFw6sRsZw/1600x900",
+        "description": "Something else I should put here on the front page?"
+    }
+]

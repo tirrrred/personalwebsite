@@ -176,6 +176,15 @@ export default {
     url("https://source.unsplash.com/oQbLeq4nOek/1600x900")
 }
 
+.row-background-cover.post-education {
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.7)
+    ), 
+    url("https://source.unsplash.com/U4wcrDteZ2Y/1600x900")
+}
+
 .info-block {
     text-align: center;
     height: 100%;

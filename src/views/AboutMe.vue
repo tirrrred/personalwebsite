@@ -50,10 +50,10 @@
         </b-container>
       </b-container>
     </b-container>
-    <b-container fluid class="row-background-cover experienceMe">
+    <b-container fluid class="row-background-cover post-education">
       <b-container class="info-block">
         <b-container class="text-block tb-header">
-          New challenges
+          New <span class="contrast-blue">Challenges</span>
         </b-container>
         <b-container class="text-block">
           DNB

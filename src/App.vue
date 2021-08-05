@@ -18,17 +18,19 @@
                   <b-img src="tordlangedalness_squared.png" rounded="circle" fluid></b-img>
                 </b-col>
             </b-row>
-            <b-row class="mt-3">
+            <b-row class="mt-2">
                 <b-col>
                   <h2>
                     Tord Langedal Ness
                   </h2>
                 </b-col>
             </b-row>
-            <b-row class="mt-3">
-                <b-col>
-                    <h4>Consultant</h4>
-                  </b-col>
+            <b-row>
+              <b-col>
+                <h4>Tech Lead</h4>
+                <h5>Infrastructure Engineer</h5>
+                <h5>Father</h5>
+              </b-col>
             </b-row>
             <b-row class="mt-4 mb-4" align-h="center">
               <b-list-group horizontal>
@@ -48,10 +50,11 @@
                 <b-list-group-item to='/' class="d-flex justify-content-between align-items-center sidebar-listed-items">
                   About Me
                 </b-list-group-item>
-                <b-list-group-item to='/projects' class="flex-fill d-flex justify-content-between sidebar-listed-items">
+                <!-- TO-BE: Project page displaying protofiol og projects and acheivements -->
+                <!-- <b-list-group-item to='/projects' class="flex-fill d-flex justify-content-between sidebar-listed-items">
                   Projects
-                </b-list-group-item>
-                <b-list-group-item href="#" class="d-flex justify-content-between align-items-center sidebar-listed-items">
+                </b-list-group-item> -->
+                <b-list-group-item to='/cv' class="d-flex justify-content-between align-items-center sidebar-listed-items">
                   CV
                 </b-list-group-item>
               </b-list-group>
@@ -183,6 +186,15 @@ export default {
       rgba(0,0,0,0.7)
     ), 
     url("https://source.unsplash.com/U4wcrDteZ2Y/1600x900")
+}
+
+.row-background-cover.call-to-action {
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.7)
+    ), 
+    url("https://source.unsplash.com/JYGnB9gTCls/1600x900")
 }
 
 .info-block {

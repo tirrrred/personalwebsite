@@ -1,7 +1,7 @@
 <template>
     <div id="cv-page">
-        <b-container>
-            <b-container class="cv-section">
+        <b-container id="container-md">
+            <b-container id="container-sm" class="cv-section">
                 <b-row>
                     <b-col class="experience">
                         <b-row>
@@ -219,8 +219,14 @@ ul, ol {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+  #container-md {
+      height: 100%;
+      width: 100vh;
+      padding: 0;
+  }
+  #cv-page {
+      padding: 0;
+      margin: 0;
   }
 }
 </style>

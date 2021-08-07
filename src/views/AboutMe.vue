@@ -3,7 +3,7 @@
     <b-container fluid class="row-background-cover intro">
       <b-container class="info-block">
         <b-container class="text-block tb-header">
-          Welcome!<br><span class="contrast-blue">Good to see you!</span><br><p>Who am I, you might ask? Keep reading and I will show you</p>
+          Welcome!<br><span class="contrast-blue">Good to see you!</span><br><p>Who am I, you might ask? Keep scrolling and I will show you</p>
         </b-container>
         <b-container class="text-block">
           But in first <span class="contrast-blue">short</span>:<br><br>
@@ -15,7 +15,7 @@
           and experience at designing, implementing, and operating enterprise infrastructure have provided a solid technical foundation. Leadership roles in both the 
           Armed Forces and DNB have sparked my love for leadership and people.
           <br><br>
-          <p class="small"><span class="contrast-blue">psst:</span> <a to="/cv" rel="noopener noreferrer">Here is the TL;DR version for the lazy people (like me)</a></p>
+          <p class="small"><span class="contrast-blue">psst:</span> <a href="/cv" rel="noopener noreferrer">Here is the TL;DR version for the lazy people (like me)</a></p>
         </b-container>
       </b-container>
     </b-container>
@@ -63,7 +63,7 @@
           safe and relatively unconcerned life in Norway. The deployment to Iraq motivated for several other tours, and after three and a half years working in the Armed Forces, 
           he had put behind four more tours to Kabul, Afghanistan.  As rewarding as all of these tours were, it was time to move on to new challenges. After three years in the 
           Norwegian Defence Cyber Academy and more than 3,5 years in the Norwegian Armed Forces Cyber Defence, exploring different military operations internationally, it was time to 
-          explore a new world: The civilian life.
+          explore a new world: Civilian life.
         </b-container>
       </b-container>
     </b-container>
@@ -73,46 +73,12 @@
           Call to <span class="contrast-blue">action</span>
         </b-container>
         <b-container class="text-block">
-          tordness@gmail.com <br>
+           <a href="mailto:tordness@gmail.com">tordness@gmail.com</a><br>
           +47 90870521 <br>
           <a href="http://www.linkedin.com/in/tord-langedal-ness" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </b-container>
       </b-container>
     </b-container>
-    <!-- <b-container fluid class="row-background-cover aboutme">
-      <b-row>
-        <b-col class="mt-4">
-          <h4 class="mt-6">About Me</h4>
-        </b-col>
-      </b-row>
-      <b-row class="row-text-block">
-        <div class="row-text-block">
-          <p>I'm a 29 year old, aspiring technologist who love the intersection between business, people and technology <br>
-          I've worked in IT for 7 years, starting in the <a href="https://www.forsvaret.no/en/organisation/norwegian-cyber-defence">Norwegian Armed Forces Cyber Defence</a></p>
-        </div>
-      </b-row>
-    </b-container>
-    <b-container fluid class="row-background-cover experienceMe">
-      <b-row>
-        <b-col>
-          <h4>Experience</h4>
-        </b-col>
-      </b-row>
-      <b-row>
-        <h1>Good Morning</h1>
-        <p>I Want to start this day by introducing my homedeveloped homepage</p>
-        <p>This is something I wanted to do for some time now for several reasons:</p>
-        <ol>
-            <li>Learn new programming language</li>
-            <li>Have a natural and personal place to start writing and blogging</li>
-            <li>Establish a personal brand</li>
-        </ol>
-        <p>I will maintain my CV and experience on this page, while also announce new blogs post of different topics I find interesting.</p>  
-        <b-col>
-          <p>Something about what I have done</p>
-        </b-col>
-      </b-row>
-    </b-container> -->
   </div>
 </template>
 

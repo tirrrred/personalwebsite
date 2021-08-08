@@ -80,8 +80,61 @@
                                     Every year, multiple military exercises were conducted to test both our academic and military leadership skills</p>
                             </b-col>
                         </b-row>
+                        <b-container class="skills skills-row">
+                        <!-- <b-row class="skills skills-row"> -->
+                            <b-container class="xp-title">
+                                <br>    
+                                <h3>Skills</h3>
+                            </b-container>
+                            <b-row>
+                                <b-container class="skills-title">Programming</b-container>
+                                <b-container>
+                                    <ul class="skills">
+                                        <li>Python</li>
+                                        <li>Golang</li>
+                                        <li>HTML/CSS/JS</li>
+                                        <li>VUEJS</li>
+                                        <li>SQL</li>
+                                    </ul>
+                                </b-container>
+                            </b-row>
+                            <b-row>
+                                <b-container class="skills-title">Architecture</b-container>
+                                <b-container>
+                                    <ul class="skills">
+                                        <li>Enterprise Infrastructure</li>
+                                        <li>Networking and Network Security</li>
+                                        <li>Azure</li>
+                                        <li>Azure Stack</li>
+                                        <li>AWS</li>
+                                        <li>GCP</li>
+                                    </ul>
+                                </b-container>
+                            </b-row>
+                            <b-row>
+                                <b-container class="skills-title">Certifications</b-container>
+                                <b-container>
+                                    <ul class="skills">
+                                        <li>Cisco CCENT</li>
+                                        <li>ITIL Foundation</li>
+                                    </ul>
+                                </b-container>
+                            </b-row>
+                            <b-row>
+                                <b-container class="skills-title">Other</b-container>
+                                <b-container>
+                                    <ul class="skills">
+                                        <li>Communication</li>
+                                        <li>Technical Leadership</li>
+                                        <li>Coordination</li>
+                                        <li>Planning</li>
+                                    </ul>
+                                </b-container>
+                            </b-row>
+                        <!-- </b-row> -->
+                        </b-container>
                     </b-col>
-                    <b-col class="skills">
+                    <b-col class="skills skills-column">
                         <b-row>
                             <b-container class="skills-title">Programming</b-container>
                             <b-container>
@@ -143,9 +196,17 @@ export default {
 <style lang="scss">
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
 #cv-page {
-    padding: 30px 100px;
+    //padding: 30px 100px; --> PC/Computers  screens
     background-color: #002c3d;
+    padding: 0;
+    margin: 0;
 }
+
+#container-md {
+    padding: 0;
+    //margin: 0;
+}
+
 
 .cv-section {
     height: 100%;
@@ -153,7 +214,8 @@ export default {
     background-color: rgb(34, 34, 34);
     min-height: 50vh;
     color: white;
-    border-radius: 70px;
+    //border-radius: 70px;
+    border-radius: initial;
 }
 
 .col {
@@ -219,19 +281,59 @@ ul, ol {
     padding: 0;
 }
 
-@media only screen and (max-width: 600px) {
-//   #container-md {
-//       height: 100%;
-//       width: 100vh;
-//       padding: 0;
-//       border-radius: 0px;
-//   }
-  #cv-page, #container-md {
-      padding: 0;
-      margin: 0;
-  }
-  .cv-section {
-      border-radius: initial;
-  }
+.skills-column {
+    display: none;
 }
+
+// @media only screen and (max-width: 600px) {
+//   #cv-page, #container-md {
+//       padding: 0;
+//       margin: 0;
+//   }
+//   .cv-section {
+//       border-radius: initial;
+//   }
+// }
+
+// @media only screen and (max-width: 800px) {
+//   #cv-page {
+//       padding: 0;
+//       margin: 0;
+//   }
+// }
+
+@media (min-width: 992px) {
+    #cv-page {
+        padding: 30px 100px;
+        margin: auto;
+    }
+}
+
+@media  (min-width: 768px) {
+    #cv-page {
+        padding: 30px 100px;
+        margin: auto;
+    }
+
+    .cv-section {
+        border-radius: 70px;
+        width: 100%;
+    }
+
+    .skills-row {
+        display: none;
+    }
+
+    .skills-column {
+        display: block;
+    }
+}
+
+@media (min-width: 576px) {
+    .cv-section {
+        border-radius: 70px;
+        width: 100%;
+    }
+}
+
 </style>

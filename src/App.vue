@@ -214,7 +214,7 @@ export default {
     line-height: 30px;
     display: inline-block;
     vertical-align: middle;
-    user-select: none;
+    user-select: all;
     cursor: default;
     &.tb-header {
       height: 20vh;

@@ -15,7 +15,7 @@
           and experience at designing, implementing, and operating enterprise infrastructure have provided a solid technical foundation. Leadership roles in both the 
           Armed Forces and DNB have sparked my love for leadership and people.
           <br><br>
-          <p class="small"><span class="contrast-blue">psst:</span> <a href="/cv" rel="noopener noreferrer">Here is the TL;DR version for the lazy people (like me)</a></p>
+          <p class="small"><span class="contrast-blue">psst:</span> <router-link to="/cv">Here is the TL;DR version for the lazy people (like me)</router-link></p>
         </b-container>
       </b-container>
     </b-container>

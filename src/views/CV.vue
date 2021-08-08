@@ -153,6 +153,7 @@ export default {
     background-color: rgb(34, 34, 34);
     min-height: 50vh;
     color: white;
+    border-radius: 70px;
 }
 
 .col {
@@ -219,14 +220,18 @@ ul, ol {
 }
 
 @media only screen and (max-width: 600px) {
-  #container-md {
-      height: 100%;
-      width: 100vh;
-      padding: 0;
-  }
-  #cv-page {
+//   #container-md {
+//       height: 100%;
+//       width: 100vh;
+//       padding: 0;
+//       border-radius: 0px;
+//   }
+  #cv-page, #container-md {
       padding: 0;
       margin: 0;
+  }
+  .cv-section {
+      border-radius: initial;
   }
 }
 </style>

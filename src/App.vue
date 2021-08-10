@@ -40,22 +40,31 @@
                 <b-list-group-item href="https://github.com/tirrrred/" target="_blank" class="sidebar-listed-items">
                   <b-icon icon="github" scale="2" aria-hidden="true" style="color: #fff;"></b-icon>
                 </b-list-group-item>
-                <b-list-group-item href="https://ciber.no/" target="_blank" class="flex-fill sidebar-listed-items">
+                <!-- <b-list-group-item href="https://ciber.no/" target="_blank" class="flex-fill sidebar-listed-items">
                   <b-icon icon="x-circle" scale="2" style="color: #fff;"></b-icon>
-                </b-list-group-item>
+                </b-list-group-item> -->
               </b-list-group>
             </b-row>
             <b-row class="mt-4 mb-4" align-h="center">
               <b-list-group>
-                <b-list-group-item to='/' class="d-flex justify-content-between align-items-center sidebar-listed-items">
-                  About Me
+                <b-list-group-item to='/' class="d-flex justify-content-between align-items-center sidebar-listed-items text-center">
+                  <b-container>
+                    About Me
+                  </b-container>
+                </b-list-group-item>
+                <b-list-group-item to='/about-page' class="d-flex align-items-center sidebar-listed-items">
+                  <b-container>
+                    About This Homepage
+                  </b-container>
                 </b-list-group-item>
                 <!-- TO-BE: Project page displaying protofiol og projects and acheivements -->
                 <!-- <b-list-group-item to='/projects' class="flex-fill d-flex justify-content-between sidebar-listed-items">
                   Projects
                 </b-list-group-item> -->
                 <b-list-group-item to='/cv' class="d-flex justify-content-between align-items-center sidebar-listed-items">
-                  CV
+                  <b-container>
+                    CV
+                  </b-container>
                 </b-list-group-item>
               </b-list-group>
             </b-row>
@@ -161,13 +170,14 @@ export default {
     url("https://source.unsplash.com/u9m_vp7ZhUY/1600x900");
 }
 
+
 .row-background-cover.education {
   background-image:
     linear-gradient(
       rgba(0,0,0,0.5),
       rgba(0,0,0,0.5)
     ), 
-    url("https://source.unsplash.com/C6duwascOEA/1600x900")
+    url("https://source.unsplash.com/uhjiu8FjnsQ/1600x900")
 }
 
 .row-background-cover.intro {
@@ -176,7 +186,7 @@ export default {
       rgba(0,0,0,0.7),
       rgba(0,0,0,0.7)
     ), 
-    url("https://source.unsplash.com/oQbLeq4nOek/1600x900")
+    url("https://source.unsplash.com/u-n1AFjUclo/1600x900")
 }
 
 .row-background-cover.post-education {
@@ -186,6 +196,42 @@ export default {
       rgba(0,0,0,0.7)
     ), 
     url("https://source.unsplash.com/U4wcrDteZ2Y/1600x900")
+}
+
+.row-background-cover.post-education {
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.7)
+    ), 
+    url("https://source.unsplash.com/C6duwascOEA/1600x900")
+}
+
+.row-background-cover.civilian-dnb {
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.7)
+    ), 
+    url("https://source.unsplash.com/vGCErDhrc3E/1600x900")
+}
+
+.row-background-cover.civilian-experis {
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.7)
+    ), 
+    url("https://source.unsplash.com/PZKe_hQSaJc/1600x900")
+}
+
+.row-background-cover.the-future {
+  background-image:
+    linear-gradient(
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.7)
+    ), 
+    url("https://source.unsplash.com/DOIgz9_qmFI/1600x900")
 }
 
 .row-background-cover.call-to-action {
@@ -239,22 +285,10 @@ export default {
 
 a {
   text-decoration: none;
+  text-align: center;
   color: white;
   :hover {
     color: rgb(214, 212, 212);
   }
 }
-
-// .row-text-block {
-//   color: white;
-//   text-align: center;
-//   position: relative;
-//   top: 50%;
-//   // display: inline-block;
-//   // color: white;
-//   // text-align: center;
-//   // vertical-align: middle;
-//   // height: 100%;
-//   // line-height: 100vh;
-// }
 </style>

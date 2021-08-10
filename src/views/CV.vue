@@ -142,7 +142,7 @@
                                     <li>Python</li>
                                     <li>Golang</li>
                                     <li>HTML/CSS/JS</li>
-                                    <li>VUEJS</li>
+                                    <li>VUEJS</li>  
                                     <li>SQL</li>
                                 </ul>
                             </b-container>

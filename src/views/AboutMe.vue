@@ -6,10 +6,10 @@
           Welcome!<br><span class="contrast-blue">Good to see you!</span><br><p>Who am I, you might ask? Keep scrolling and I will show you</p>
         </b-container>
         <b-container class="text-block">
-          But in first <span class="contrast-blue">short</span>:<br><br>
+          But in <span class="contrast-blue">short</span>:<br><br>
           I love technology and people and how those two combined can provide business value. My goal is to create strong teams and organizations by exploiting the 
           synergy between tech, people, and business.<br><br>
-          I currently lead an IT infrastructure team of 15 people responsible for secure and stable operations of critical financial systems.<br><br>
+          I currently lead an agile, IT infrastructure team of 13 people responsible for secure and stable operations of critical financial systems.<br><br>
           Operational experience from the <a href="https://www.forsvaret.no/en/organisation/norwegian-cyber-defence" target="_blank">Norwegian Armed Forces Cyber Defence</a>,
           contribution in both domestic and <a href="https://www.forsvaret.no/en/exercises-and-operations/international-operations" target="_blank">international operations</a>, 
           and experience at designing, implementing, and operating enterprise infrastructure have provided a solid technical foundation. Leadership roles in both the 
@@ -64,6 +64,39 @@
           he had put behind four more tours to Kabul, Afghanistan.  As rewarding as all of these tours were, it was time to move on to new challenges. After three years in the 
           Norwegian Defence Cyber Academy and more than 3,5 years in the Norwegian Armed Forces Cyber Defence, exploring different military operations internationally, it was time to 
           explore a new world: Civilian life.
+        </b-container>
+      </b-container>
+    </b-container>
+    <b-container fluid class="row-background-cover civilian-dnb">
+      <b-container class="info-block">
+        <b-container class="text-block tb-header">
+          Some<span class="contrast-blue">thing</span>
+        </b-container>
+        <b-container class="text-block">
+           <h4>DNB</h4>
+           <p>something something something</p>
+        </b-container>
+      </b-container>
+    </b-container>
+    <b-container fluid class="row-background-cover civilian-experis">
+      <b-container class="info-block">
+        <b-container class="text-block tb-header">
+          Some<span class="contrast-blue">thing</span>
+        </b-container>
+        <b-container class="text-block">
+           <h4>Experis</h4>
+           <p>something something something</p>
+        </b-container>
+      </b-container>
+    </b-container>
+    <b-container fluid class="row-background-cover the-future">
+      <b-container class="info-block">
+        <b-container class="text-block tb-header">
+          The <span class="contrast-blue">Future</span>
+        </b-container>
+        <b-container class="text-block">
+           <h4>What Do I Want To Become?</h4>
+           <p>What is my objective?</p>
         </b-container>
       </b-container>
     </b-container>

@@ -57,35 +57,45 @@
         </b-container>
         <b-container class="text-block">
           After some great years at the Norwegian Defence Cyber Academy, combining engineering subjects, military leadership training, football, and good social friendships, 
-          it was time to see the world. The boy started as a system engineer in the Norwegian Armed Forces Cyber Defence. He quickly found a passion for the objectives and the mission 
-          of the military unit. Before his first year in service, the first deployment was ready: Erbil, Iraq. To visit a part of the world where conflict and chaos are part of every 
-          day was a first intriguing but had later put life in perspective. The boy gained confidence and self-esteem for the tour, but more importantly, he learned to appreciate the 
-          safe and relatively unconcerned life in Norway. The deployment to Iraq motivated for several other tours, and after three and a half years working in the Armed Forces, 
-          he had put behind four more tours to Kabul, Afghanistan.  As rewarding as all of these tours were, it was time to move on to new challenges. After three years in the 
-          Norwegian Defence Cyber Academy and more than 3,5 years in the Norwegian Armed Forces Cyber Defence, exploring different military operations internationally, it was time to 
-          explore a new world: Civilian life.
+          it was time to explore the world. The boy started as a system engineer in the Norwegian Armed Forces Cyber Defence. He quickly found a passion for the objectives 
+          and the mission of the military unit. The first deployment was ready before his first year in service: Erbil, Iraq. Visiting a part of the world where conflict and 
+          chaos are part of every day was intriguing but had later put life in perspective. The boy gained confidence and self-esteem from that tour, but more importantly, 
+          he learned to appreciate the safe and relatively unconcerned life back in Norway. The deployment to Iraq motivated for several other tours, and after three and a 
+          half years working in the Armed Forces, he had put behind four more tours to Kabul, Afghanistan, in addition to the Erbil, Iraq tour.  As rewarding as all of these 
+          tours were, it was time to move on to new challenges. After three years in the Norwegian Defence Cyber Academy and more than 3,5 years in the Norwegian Armed Forces 
+          Cyber Defence, exploring different military operations internationally, it was time to explore a new world: Civilian world.
         </b-container>
       </b-container>
     </b-container>
     <b-container fluid class="row-background-cover civilian-dnb">
       <b-container class="info-block">
         <b-container class="text-block tb-header">
-          Some<span class="contrast-blue">thing</span>
+          The new <span class="contrast-blue">world</span>
         </b-container>
         <b-container class="text-block">
-           <h4>DNB</h4>
-           <p>something something something</p>
+          Have you ever felt <span class="contrast-blue">overwhelmed</span>? Sure you have, and so did the boy!  It really felt like a new world. Getting up to speed on 
+          the required domain knowledge was deterring, and by comparing himself with his senior colleagues, it seems like an impossible road to walk. Imposter syndrome, heard of it?
+          However, it was not the domain knowledge alone that made it overwhelming. The added complexity of the organization, history of the enterprise with mergers, acquisitions, and reorganizations 
+          made it challenging to navigate the corporate landscape. At least for a while. <br><br>
+
+          Although not directly transferable skills, the experience attained from previous employment, operations, and tours abroad helped the boy fight the overwhelming feelings and 
+          the imposter syndrome. The boy managed quite well by being analytic, hard-working, curious, humble, and honest. He communicated well and got the hang of both the domain knowledge 
+          and the organization and political structure of the enterprise. And before he knew, he was team lead for 15 professional engineers and architects, 
+          managing and operating nationwide critical infrastructure. He <span class="contrast-blue">loved</span> it! Working closely with the team members, service owner, and other units of the organization, all to improve and optimize 
+          the value from the team, the technology, the processes, and the organization. And you bet he learned from it! Yet, everything that has a beginning must have an end. It was time for <span class="contrast-blue">new challenges</span> yet again. 
         </b-container>
       </b-container>
     </b-container>
     <b-container fluid class="row-background-cover civilian-experis">
       <b-container class="info-block">
         <b-container class="text-block tb-header">
-          Some<span class="contrast-blue">thing</span>
+          <span class="contrast-blue">Experis</span>
         </b-container>
         <b-container class="text-block">
-           <h4>Experis</h4>
-           <p>something something something</p>
+           The boy started now as a consultant. By reflecting over his last years of experience, he realized that he loved learning about new people, organizations, 
+           and technology, with a good knowledge of the overarching picture and insight into the details. <br><br>
+
+           Now he wants to explore this potential with different businesses and organization. Let's see how it goes!
         </b-container>
       </b-container>
     </b-container>
@@ -95,8 +105,11 @@
           The <span class="contrast-blue">Future</span>
         </b-container>
         <b-container class="text-block">
-           <h4>What Do I Want To Become?</h4>
-           <p>What is my objective?</p>
+          <h4>What Do The Boy Want To Become?</h4><br>
+          <p>He loves to understand the big-picture but also have insight into the details</p>
+          <p>He loves to work in the intersection between business, technology, and people and firmly believes that the latter is the most important part of the equation</p>
+          <p>He dreams to have a real impact on businesses, by utilizing the above</p>
+          <p>He wants to lead change, for the better for businesses and for the society</p>
         </b-container>
       </b-container>
     </b-container>

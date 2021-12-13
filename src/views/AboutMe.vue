@@ -80,7 +80,7 @@
 
           Although not directly transferable skills, the experience attained from previous employment, operations, and tours abroad helped the boy fight the overwhelming feelings and 
           the imposter syndrome. The boy managed quite well by being analytic, hard-working, curious, humble, and honest. He communicated well and got the hang of both the domain knowledge 
-          and the organization and political structure of the enterprise. And before he knew, he was team lead for 15 professional engineers and architects, 
+          and the organization and political structure of the enterprise. And before he knew, he was team lead for 13 professional engineers and architects, 
           managing and operating nationwide critical infrastructure. He <span class="contrast-blue">loved</span> it! Working closely with the team members, service owner, and other units of the organization, all to improve and optimize 
           the value from the team, the technology, the processes, and the organization. And you bet he learned from it! Yet, everything that has a beginning must have an end. It was time for <span class="contrast-blue">new challenges</span> yet again. 
         </b-container>

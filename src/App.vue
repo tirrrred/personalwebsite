@@ -27,9 +27,11 @@
             </b-row>
             <b-row>
               <b-col>
-                <h4>Tech Lead</h4>
-                <h5>Infrastructure Engineer</h5>
-                <h5>Father</h5>
+                <h4>Business Consultant</h4>
+                <h6>Agile Advocator</h6>
+                <h6>Team Leader</h6>
+                <h6>IT Architect</h6>
+                <h6>Father</h6>
               </b-col>
             </b-row>
             <b-row class="mt-4 mb-4" align-h="center">

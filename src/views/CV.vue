@@ -9,7 +9,20 @@
                                 <h3>Experience</h3>
                             </b-container>
                         </b-row>
-
+                        <b-row class="xp-item">
+                            <b-col class="timeline">
+                                <h4>OCT 2021 - Current</h4>
+                                <p>Experis Norway</p>
+                            </b-col>
+                            <b-col class="divider"></b-col>
+                            <b-col class="xp-desc">
+                                <h4>Business Consultant</h4>
+                                <p>I'm working closely with customers and businesses to tap their fullest potential through 
+                                    technology, people, organization, and transformation. Profound experience with IT infrastructure
+                                     and a firm believer that it all starts with people and employees. Advocates agile mindset, 
+                                     design thinking, change management, and system thinking by understanding the overarching context</p>
+                            </b-col>
+                        </b-row>
                         <b-row class="xp-item">
                             <b-col class="timeline">
                                 <h4>Nov 2020 - Oct 2021</h4>
@@ -128,6 +141,7 @@
                                         <li>Technical Leadership</li>
                                         <li>Coordination</li>
                                         <li>Planning</li>
+                                        <li>Agile, Scrum and Kanban</li>
                                     </ul>
                                 </b-container>
                             </b-row>
@@ -139,11 +153,12 @@
                             <b-container class="skills-title">Programming</b-container>
                             <b-container>
                                 <ul class="skills">
-                                    <li>Python</li>
-                                    <li>Golang</li>
-                                    <li>HTML/CSS/JS</li>
-                                    <li>VUEJS</li>  
-                                    <li>SQL</li>
+                                    <li><a href="https://www.terraform.io/" target="_blank">Terraform</a></li>
+                                    <li><a href="https://www.python.org/" target="_blank">Python</a></li>
+                                    <li><a href="https://go.dev/" target="_blank">Golang</a></li>
+                                    <li><a href="https://www.w3schools.com/whatis/" target="_blank">HTML/CSS/JS</a></li>
+                                    <li><a href="https://vuejs.org/" target="_blank">VUEJS</a></li>
+                                    <li><a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a></li>
                                 </ul>
                             </b-container>
                         </b-row>
@@ -151,12 +166,13 @@
                             <b-container class="skills-title">Architecture</b-container>
                             <b-container>
                                 <ul class="skills">
-                                    <li>Enterprise Infrastructure</li>
+                                    <li><a href="https://en.wikipedia.org/wiki/Enterprise_architecture" target="_blank">Enterprise Architecture</a></li>
+                                    <li><a href="https://en.wikipedia.org/wiki/IT_infrastructure" target="_blank">Enterprise Infrastructure</a></li>
                                     <li>Networking and Network Security</li>
-                                    <li>Azure</li>
-                                    <li>Azure Stack</li>
-                                    <li>AWS</li>
-                                    <li>GCP</li>
+                                    <li><a href="https://azure.microsoft.com/en-us/" target="_blank">Azure</a></li>
+                                    <li><a href="https://aws.amazon.com/" target="_blank">AWS</a></li>
+                                    <li><a href="https://cloud.google.com/" target="_blank">GCP</a></li>
+                                    <li><a href="https://restfulapi.net/" target="_blank">REST API</a></li>
                                 </ul>
                             </b-container>
                         </b-row>
@@ -177,6 +193,12 @@
                                     <li>Technical Leadership</li>
                                     <li>Coordination</li>
                                     <li>Planning</li>
+                                    <li><a href="https://agilemanifesto.org/" target="_blank">Agile</a></li>
+                                    <li>Scrum</li>
+                                    <li>Kanban</li>
+                                    <li>Design Thinking</li>
+                                    <li>Change Management</li>
+                                    <li>Digital Transformation</li>
                                 </ul>
                             </b-container>
                         </b-row>

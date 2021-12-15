@@ -54,9 +54,9 @@
                     About Me
                   </b-container>
                 </b-list-group-item>
-                <b-list-group-item to='/about-page' class="d-flex align-items-center sidebar-listed-items">
+                <b-list-group-item to='/blog' class="d-flex justify-content-between align-items-center sidebar-listed-items">
                   <b-container>
-                    About This Homepage
+                    Blog
                   </b-container>
                 </b-list-group-item>
                 <!-- TO-BE: Project page displaying protofiol og projects and acheivements -->
@@ -66,6 +66,11 @@
                 <b-list-group-item to='/cv' class="d-flex justify-content-between align-items-center sidebar-listed-items">
                   <b-container>
                     CV
+                  </b-container>
+                </b-list-group-item>
+                <b-list-group-item to='/about-page' class="d-flex align-items-center sidebar-listed-items">
+                  <b-container>
+                    About This Homepage
                   </b-container>
                 </b-list-group-item>
               </b-list-group>

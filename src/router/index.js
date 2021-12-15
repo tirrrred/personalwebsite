@@ -4,6 +4,7 @@ import Projects from '../views/Projects.vue'
 import AboutMe from '../views/AboutMe.vue'
 import CV from '../views/CV.vue'
 import AboutPage from '../views/AboutThisPage.vue'
+import Blog from '../views/Blog.vue'
 
 Vue.use(VueRouter)
 
@@ -28,7 +29,13 @@ const routes = [
     name: 'CV',
     component: CV
   },
-  
+  {
+    path: "/blog",
+    component: Blog,
+    beforeEnter() {
+      window.location.href = "https://svc-personalblog-s4eifvjofq-lz.a.run.app/";
+    },
+  }
 ]
 
 const router = new VueRouter({

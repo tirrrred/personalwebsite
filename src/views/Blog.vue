@@ -9,7 +9,7 @@
 
 export default {
   created() {
-    window.location.href = "https://svc-personalblog-s4eifvjofq-lz.a.run.app/";
+    window.location.href = "https://blog.tordlangedalness.com";
   },
 }
 </script>

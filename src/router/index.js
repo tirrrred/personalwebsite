@@ -5,12 +5,18 @@ import AboutMe from '../views/AboutMe.vue'
 import CV from '../views/CV.vue'
 import AboutPage from '../views/AboutThisPage.vue'
 import Blog from '../views/Blog.vue'
+import Intro from '../views/Intro.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
+    name: 'Index',
+    component: Intro
+  },
+  {
+    path: '/about-me',
     name: 'About Me',
     component: AboutMe
   },
@@ -30,10 +36,15 @@ const routes = [
     component: CV
   },
   {
+    path: '/intro',
+    name: 'Intro',
+    component: Intro
+  },
+  {
     path: "/blog",
     component: Blog,
     beforeEnter() {
-      window.location.href = "https://svc-personalblog-s4eifvjofq-lz.a.run.app/";
+      window.location.href = "https://blog.tordlangedalness.com";
     },
   }
 ]

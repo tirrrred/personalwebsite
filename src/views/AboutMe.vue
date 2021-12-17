@@ -1,6 +1,6 @@
 <template>
   <div class="aboutMe">
-    <b-container fluid class="row-background-cover intro">
+    <!-- <b-container fluid class="row-background-cover intro">
       <b-container class="info-block">
         <b-container class="text-block tb-header">
           Welcome!<br><span class="contrast-blue">Good to see you!</span><br><p>Who am I, you might ask? Keep scrolling and I will show you</p>
@@ -18,7 +18,7 @@
           <p class="small"><span class="contrast-blue">psst:</span> <router-link to="/cv">Here is the TL;DR version for the lazy people (like me)</router-link></p>
         </b-container>
       </b-container>
-    </b-container>
+    </b-container> -->
     <b-container fluid class="row-background-cover pre-education">
       <b-container class="info-block">
         <b-container class="text-block tb-header">

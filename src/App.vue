@@ -15,13 +15,17 @@
           <!-- <b-container class="bv-example-row"> -->
             <b-row class="mb-6">
                 <b-col>
-                  <b-img src="tordlangedalness_squared.png" rounded="circle" fluid></b-img>
+                  <router-link to="/">
+                    <b-img src="tordlangedalness_squared.png" rounded="circle" fluid></b-img>
+                  </router-link>
                 </b-col>
             </b-row>
             <b-row class="mt-2">
                 <b-col>
                   <h2>
-                    Tord Langedal Ness
+                    <router-link to="/">
+                      Tord Langedal Ness
+                    </router-link>
                   </h2>
                 </b-col>
             </b-row>
@@ -42,18 +46,10 @@
                 <b-list-group-item href="https://github.com/tirrrred/" target="_blank" class="sidebar-listed-items">
                   <b-icon icon="github" scale="2" aria-hidden="true" style="color: #fff;"></b-icon>
                 </b-list-group-item>
-                <!-- <b-list-group-item href="https://ciber.no/" target="_blank" class="flex-fill sidebar-listed-items">
-                  <b-icon icon="x-circle" scale="2" style="color: #fff;"></b-icon>
-                </b-list-group-item> -->
               </b-list-group>
             </b-row>
             <b-row class="mt-4 mb-4" align-h="center">
               <b-list-group>
-                <b-list-group-item to='/' class="d-flex justify-content-between align-items-center sidebar-listed-items text-center">
-                  <b-container>
-                    About Me
-                  </b-container>
-                </b-list-group-item>
                 <b-list-group-item to='/blog' class="d-flex justify-content-between align-items-center sidebar-listed-items">
                   <b-container>
                     Blog
@@ -66,6 +62,11 @@
                 <b-list-group-item to='/cv' class="d-flex justify-content-between align-items-center sidebar-listed-items">
                   <b-container>
                     CV
+                  </b-container>
+                </b-list-group-item>
+                <b-list-group-item to='/about-me' class="d-flex justify-content-between align-items-center sidebar-listed-items text-center">
+                  <b-container>
+                    About Me
                   </b-container>
                 </b-list-group-item>
                 <b-list-group-item to='/about-page' class="d-flex align-items-center sidebar-listed-items">
